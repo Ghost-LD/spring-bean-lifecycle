@@ -1,5 +1,6 @@
 package yi.tian.spring.bean.life;
 
+import org.openjdk.jmh.annotations.Benchmark;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
@@ -18,5 +19,7 @@ public class LifeApplicationDemo {
         SpringApplication.run(LifeApplicationDemo.class,args);
 
     }
+
+
 
 }
